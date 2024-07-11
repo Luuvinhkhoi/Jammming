@@ -1,0 +1,13 @@
+.Track-information{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    border-block-start: solid; 
+    border-block-start-color: white; 
+}
+button{
+    background-color: transparent;
+    color: white;
+    border: 0;
+    padding: 0;
+}
