@@ -1,7 +1,6 @@
 let accessToken='';
 const clientID='ff99a218ab99419db4f41b827febc6a0'
 const redirectUrl="http://localhost:3000"
-const scope='playlist-modify-public playlist-modify-private'
 let Spotify = {
     getAccessToken(){
       if (accessToken){
