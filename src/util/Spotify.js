@@ -57,7 +57,7 @@ let Spotify = {
     },
     savePlaylist(playlistName, trackUris) {
       if (!playlistName || !trackUris) {
-          return playlistName, trackUris
+          return 
       }
       const accessToken = Spotify.getAccessToken();
       const header = { Authorization: `Bearer ${accessToken}` };
